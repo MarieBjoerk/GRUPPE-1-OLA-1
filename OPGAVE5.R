@@ -34,7 +34,6 @@ for(g in unique(df$Klasse)){
 
 library(tidyr)
 
-library(tidyr)
-
 klasse1 <- pivot_wider(df1,
                        names_from  = Klasse,
+                       values_from = Score)
